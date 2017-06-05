@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Hello_Angular", "1_Hello_Angular\1_Hello_Angular.csproj", "{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Angular_Routing", "2_Angular_Routing\2_Angular_Routing.csproj", "{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Angular_Http_GET", "3_Angular_Http_Get\3_Angular_Http_GET.csproj", "{F974EAF6-626F-44A4-9390-8D2C77829CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Angular_Http_POST", "4_Angular_Http_POST\4_Angular_Http_POST.csproj", "{5799000B-0ABC-47A6-A55F-D28A093169DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Angular_PrimeNG_Grid", "5_Angular_PrimeNG_Grid\5_Angular_PrimeNG_Grid.csproj", "{5843DBDC-6ABA-4CFA-9032-C353267AECE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F974EAF6-626F-44A4-9390-8D2C77829CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F974EAF6-626F-44A4-9390-8D2C77829CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F974EAF6-626F-44A4-9390-8D2C77829CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F974EAF6-626F-44A4-9390-8D2C77829CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5799000B-0ABC-47A6-A55F-D28A093169DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5799000B-0ABC-47A6-A55F-D28A093169DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5799000B-0ABC-47A6-A55F-D28A093169DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5799000B-0ABC-47A6-A55F-D28A093169DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5843DBDC-6ABA-4CFA-9032-C353267AECE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5843DBDC-6ABA-4CFA-9032-C353267AECE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5843DBDC-6ABA-4CFA-9032-C353267AECE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5843DBDC-6ABA-4CFA-9032-C353267AECE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
