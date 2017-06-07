@@ -16,8 +16,15 @@ namespace _4_Angular_Http_POST
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional },
+                 constraints: new { controller = "Home" }
             );
+
+            routes.MapRoute(
+              name: "Angular_Default",
+              url: "{*url}",
+                defaults: new { controller = "Home", action = "Index" }
+              );
         }
     }
 }
