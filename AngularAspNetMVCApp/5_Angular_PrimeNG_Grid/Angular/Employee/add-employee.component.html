@@ -1,0 +1,20 @@
+﻿<form>
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" name="firstName" [(ngModel)]="employee.FirstName" placeholder="first name">
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" name="lastName" [(ngModel)]="employee.LastName" placeholder="last name">
+    </div>
+    <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" class="form-control" name="city" [(ngModel)]="employee.City" placeholder="city">
+    </div>
+    <div class="form-group">
+        <label for="country">Country</label>
+        <input type="text" class="form-control" name="country" [(ngModel)]="employee.Country" placeholder="country">
+    </div>
+    <button type="submit" (click)="addEmployee(employee)" class="btn btn-primary">Submit</button>
+    <div><label>{{message}}</label></div>
+</form>

@@ -46,5 +46,33 @@ namespace _4_Angular_Http_POST.Controllers.API
             }
             return Ok(employeeModelList);
         }
+
+        [HttpPost]
+        [Route("EmployeeService/SaveEmployee")]
+        public IHttpActionResult SaveEmployee(EmployeeModel employee)
+        {
+            try
+            {
+                IEmployeeRepository employeeRepo = new EmployeeRepository(new CodifyDataContext());
+                EmployeeEntity empEntity = new EmployeeEntity();
+                empEntity.Address = employee.Address;
+                empEntity.City = employee.City;
+                empEntity.Country = employee.Country;
+                empEntity.FirstName = employee.FirstName;
+                empEntity.LastName = employee.LastName;
+                empEntity.CreatedBy = System.Environment.UserName;
+                empEntity.ModifiedBy = System.Environment.UserName;
+                empEntity.CreatedDate = DateTime.Now;
+                empEntity.ModifiedDate = DateTime.Now;
+
+                employeeRepo.AddEmployee(empEntity);
+                employeeRepo.SaveChanges();
+                return Ok("Success");
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+        }
     }
 }

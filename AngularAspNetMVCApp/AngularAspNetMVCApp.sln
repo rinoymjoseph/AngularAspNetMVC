@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Hello_Angular", "1_Hello_Angular\1_Hello_Angular.csproj", "{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Angular_Routing", "2_Angular_Routing\2_Angular_Routing.csproj", "{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Angular_Http_GET", "3_Angular_Http_Get\3_Angular_Http_GET.csproj", "{F974EAF6-626F-44A4-9390-8D2C77829CB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Angular_Http_POST", "4_Angular_Http_POST\4_Angular_Http_POST.csproj", "{5799000B-0ABC-47A6-A55F-D28A093169DD}"
@@ -19,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codify.Entity", "..\..\Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codify.DataAccess", "..\..\EntityFramework\Codify.DataAccess\Codify.DataAccess.csproj", "{87E86A1F-7227-4C1C-97EB-36F6996008CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Angular_Route", "2_Angular_Route\2_Angular_Route.csproj", "{A96DBA8D-99DE-42A8-94D4-29C8828098D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +29,6 @@ Global
 		{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3E4D773-7418-4F6A-AC5C-953CDFCD6721}.Release|Any CPU.Build.0 = Release|Any CPU
-		{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{676D6FF1-EC5A-467E-ABA6-B183A81AEA7C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F974EAF6-626F-44A4-9390-8D2C77829CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F974EAF6-626F-44A4-9390-8D2C77829CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F974EAF6-626F-44A4-9390-8D2C77829CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,6 +49,10 @@ Global
 		{87E86A1F-7227-4C1C-97EB-36F6996008CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87E86A1F-7227-4C1C-97EB-36F6996008CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87E86A1F-7227-4C1C-97EB-36F6996008CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96DBA8D-99DE-42A8-94D4-29C8828098D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96DBA8D-99DE-42A8-94D4-29C8828098D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96DBA8D-99DE-42A8-94D4-29C8828098D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96DBA8D-99DE-42A8-94D4-29C8828098D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
