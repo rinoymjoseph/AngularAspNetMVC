@@ -36,7 +36,8 @@ AppModule = __decorate([
             add_product_component_1.AddProductComponent,
             list_products_component_1.ListProductsComponent
         ],
-        bootstrap: [app_component_1.AppComponent]
+        bootstrap: [app_component_1.AppComponent],
+        providers: [{ provide: APP_BASE_HREF, useValue: '/' }]
     })
 ], AppModule);
 exports.AppModule = AppModule;
